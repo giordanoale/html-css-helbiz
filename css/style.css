@@ -1,3 +1,54 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+/* intestazione */
+.header_top{
+  line-height: 70px;
+  position: fixed;
+  z-index: 10;
+  width: 80%;
+}
+.logo img{
+  height: 13px;
+  vertical-align: middle;
+}
+
+.main_nav, .login_nav {
+  display: inline-block;
+}
+
+.big_nav {
+  float: right;
+  vertical-align: middle;
+}
+
+.main_nav li a{
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.btn_login {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0px;
+  box-shadow: 0px;
+  padding: 6px 20px;
+}
+
+.btn_login:hover{
+  color: #fff;
+}
+
+.login_nav .lang {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
