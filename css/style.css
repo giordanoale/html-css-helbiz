@@ -69,6 +69,7 @@ body {
 
 .jumbotron h1 {
   text-align: center;
+  margin: auto;
   font-size: 95px;
   font-weight: 600;
 }
@@ -82,7 +83,7 @@ body {
 }
 
 .product_logo {
-  height: 25px;
+  height: 20px;
   margin-top: 50px;
 }
 
@@ -144,3 +145,9 @@ body {
   padding-bottom: 40px;
 }
 /* /Sezione come funziona */
+
+@media screen and (max-width) {
+  h1 {
+    font-size: 50px;
+  }
+}
