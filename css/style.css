@@ -7,7 +7,8 @@ body {
   line-height: 70px;
   position: fixed;
   z-index: 10;
-  width: 80%;
+  width: 100%;
+  background-color: #fff;
 }
 .logo img{
   height: 13px;
@@ -51,4 +52,23 @@ body {
   padding-right: 5px;
   margin-left: 20px;
   margin-right: 10px;
+}
+
+.btn_mobile {
+  background-color: #fff;
+  font-size: 20px;
+}
+/* /Intestazione */
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 70px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  font-size: 95px;
+  font-weight: 600;
 }
